@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" android:id="@+id/activity_main_drawer">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_games"
+            android:icon="@drawable/nav_icon"
+            android:title="Best PC Games" />
+        <item
+            android:id="@+id/nav_physical_stores"
+            android:icon="@drawable/nav_icon"
+            android:title="Physical Stores" />
+        <item
+            android:id="@+id/nav_online_stores"
+            android:icon="@drawable/nav_icon"
+            android:title="Online Stores" />
+        <item
+            android:id="@+id/nav_amazon"
+            android:icon="@drawable/nav_icon"
+            android:title="Gaming PCs on Amazon" />
+    </group>
+</menu>
